@@ -1,0 +1,5 @@
+{
+  "name": "CyberMatch Gaming Platform",
+  "description": "A sleek, cyberpunk-themed platform for 1v1 online games like Tic-Tac-Toe and Battleship. Features include public/private lobbies, user authentication, and a real-time player counter, all wrapped in a responsive, high-performance interface.",
+  "requestFramePermissions": []
+}

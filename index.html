@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberMatch Gaming</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              orbitron: ['Orbitron', 'sans-serif'],
+            },
+            colors: {
+              'cyber-bg': '#0a0a1a',
+              'cyber-surface': '#14142c',
+              'cyber-border': '#39395f',
+              'cyber-primary': '#00f7ff',
+              'cyber-secondary': '#f700ff',
+              'cyber-accent': '#faff00',
+              'cyber-text': '#e0e0ff',
+              'cyber-text-dim': '#a0a0c0',
+            },
+            boxShadow: {
+              'cyber-glow-primary': '0 0 5px #00f7ff, 0 0 10px #00f7ff',
+              'cyber-glow-secondary': '0 0 5px #f700ff, 0 0 10px #f700ff',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "lucide-react": "https://esm.sh/lucide-react@^0.539.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.8.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-cyber-bg text-cyber-text">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
